@@ -1,0 +1,286 @@
+
+/* -- Header --*/
+.navbar{
+    background: rgb(160,0,0);
+}
+.nav-item{
+    padding: 0 1.5em;
+}
+.nav-item a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial black, arial, sans-serif;
+}
+.active a, .nav-item a:hover{
+    background-color: white;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.8);
+    padding-left: 20px;
+}
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    border-radius: 2px;
+    box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+}
+.dropdown-menu a {
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: arial, sans-serif;
+}
+.dropdown-menu a:hover{
+    background-color: #eeeeee;
+    color: black;
+}
+
+/* -- Footer --*/
+.footer-style{
+    background-color: rgb(160,0,0);
+    color: white;
+    padding: 15px;
+    font-family: arial black, arial, sans-serif;
+}
+.footer-style h5{
+    font-size: 20px;
+    font-weight: 5000;
+}
+.footer-style li a{
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 15px;
+}
+.footer-style li:hover{
+    padding-left: 5px;
+}
+
+/* -- Sponsorer -- */
+.sponsorer {
+    background-color: #eeeeee;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.sponsorer img{
+    min-width: 100px;
+    max-width: 100%;
+    vertical-align: middle;
+
+}
+.sponsor-buffer { margin-top:20px; margin-bottom: 20px;}
+ #profiltextil{padding-bottom: 3px; background: black;}
+
+ /* -- Orsa Ishall -- */
+.orsaishall img {
+     width: 300px;
+ }
+
+
+/* -- Startsida -- */
+
+    /* -- Nyheter -- */
+    .container-nyhet{
+        width: auto;
+        height: auto;
+        background-color: white;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        margin: 2em;
+
+    }
+    .container-nyhet:hover{
+        box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+    }
+    .container-nyhetsbild{
+        width: 100%;
+    }
+    .container-nyhetsbild img{
+        max-width: 100%;
+    }
+    .container-header-nyhet{
+        color: white;
+        background-color: rgb(160,0,0);
+    }
+    .title{
+        font-size: 25px;
+        font-family: arial, sans-serif;
+        font-weight: 1000;
+
+        padding: 0.25em 0.5em;
+
+    }
+    .container-text-nyhet{
+        padding: 0.25em 0.5em;
+    }
+    .news-text{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container-footer-nyhet{
+        border-top: 1px solid black;
+        padding-bottom: 0.5em;
+    }
+    .news-footer-inre{
+
+        background-color: rgb(160,0,0);
+        color: white;
+        font-size: 25px;
+
+        padding: 0px 8px 3px;
+        border-radius: 2px;
+    }
+    .timestamp-nyhet{
+        font-size: 15px;
+        vertical-align: middle;
+        padding-left: 10px;
+    }
+    .author-nyhet{
+        font-size: 15px;
+        vertical-align: middle;
+        padding-left: 15px;
+    }
+
+    /* -- Banners -- */
+    .banner-container{
+        max-width: 100%;
+        height: auto;
+        background-color: rgb(160,0,0);
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        margin: 2em;
+
+    }
+    .banner-container:hover{
+        box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+    }
+    .banner-title-container{
+        max-width: 100%;
+        padding: 0.25em;
+    }
+    .banner-title{
+        font-size: 20px;
+        font-family: arial, sans-serif;
+        font-weight: 1000;
+        color: white;
+        padding: 0.25em 0.5em;
+    }
+    .banner-image-container{
+        max-width: 100%;
+        height: auto;
+        background-color: white;
+
+    }
+    .banner-image-container img{
+        width: 100%;
+        height: auto;
+    }
+    .banner-text-container{
+        max-width: 100%;
+        height: auto;
+        background-color: white;
+    }
+
+    .banner-text{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+
+/* -- Laget -- */
+#laget{
+    margin-bottom: 1em;
+}
+#lagfoto{
+    margin-bottom: 2em;
+}
+.lagfoto-titel h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.lagfoto-container{
+    margin: 10px;
+}
+.lagfoto-container img{
+    width: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+    /*-- Positionheader --*/
+    .modul-header-lagposition{
+        margin-bottom: 5px;
+    }
+    .header-lagposition-yttre{
+        margin: 5px;
+    }
+    .header-lagposition-inre{
+        width: 100px;
+        height: 30px;
+        background-color: rgb(160,0,0);
+        color: white;
+        font-size: 25px;
+
+        padding: 0px 8px 4px;
+        border-radius: 2px;
+    }
+
+    /* -- Spelarkort -- */
+    .disable-decoration a{
+        text-decoration: none;
+    }
+    .spelarkort-container{
+        width: 330px;
+        height: 150px;
+        margin: 1.5em auto;
+        border-radius: 2px;
+        overflow: hidden;
+        background-color: rgb(160,0,0);
+        /*border: 1px solid #dddddd;*/
+
+    }
+    .spelarkort-container:hover{
+        box-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+    }
+    .spelarkort-image-container {
+        float: left;
+        max-height: 100%;
+    }
+    .spelarkort-image-container img{
+        height: 150px;
+    }
+    .spelarinfo-container{
+        float: left;
+
+        height: 100%;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+
+    .spelarinfo-name-container{
+        padding-left: 10px;
+        padding-top: 5px;
+        width: auto;
+    }
+    .spelarinfo-name-container h1{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+    .spelarinfo-number-container {
+        width: auto;
+        padding-left: 15px;
+    }
+    .spelarinfo-number-container h2{
+        font-size: 35px;
+        color: white;
+        text-decoration: none;
+    }
+    .spelarinfo-container ul{
+        list-style: none;
+        padding-left: 15px;
+    }
+    .spelarinfo-container li{
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+    }
